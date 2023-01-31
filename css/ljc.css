@@ -1,0 +1,56 @@
+
+     * {
+        margin: 0; padding: 0;
+        font-family: Microsoft yahei;
+    }
+    body {
+        background-color: #fff;
+    }
+    .code-item {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        padding-bottom: 1px;
+        display: none;
+        background-color: #5c92ef;
+    }
+    .code-title {
+        height: 100px;
+        background-color: #f2f2f2;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50%;
+    }
+    .code-area {
+        text-align: center;
+    }
+    .code-area>img {
+        margin: 80px 0;
+        width: 60%;
+        min-width: 100px;
+    }
+    .code-footer {
+        height: 80px;
+        text-align: center;
+        background-color: #fff;
+        color: #666;
+        line-height: 80px;
+        font-size: 20px;
+        margin: -2px 2px 2px 2px;
+    }
+    /*
+    #code-all>.code-title {
+        background-image: url("/img/wzq.jpg");
+    }
+    #code-qq {
+        background-color: #54bc6e;
+    }
+    #code-qq>.code-title {
+        background-image: url("/img/qqlogo.jpg");
+    }
+    #code-wechat {
+        background-color: #54bc6e;
+    }
+    #code-wechat>.code-title {
+        background-image: url("/img/wxlogo.jpg");
+    }*/
