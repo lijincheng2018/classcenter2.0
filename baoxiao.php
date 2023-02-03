@@ -1,6 +1,8 @@
 <?php
 //error_reporting(0);
 session_start();
+
+//使用腾讯云短信SDK
 require_once './vendor/autoload.php';
 use TencentCloud\Sms\V20210111\SmsClient;
 // 导入要请求接口对应的Request类
@@ -99,7 +101,7 @@ if($_GET['action']=="post"){
         
         try {
 
-            $cred = new Credential("AKIDx0oJXclO3aT85mrTHo9HD0aaNyTjgomW", "Z6XcGOBnAI0a5ez68wlD7pT0TjLnofMo");
+            $cred = new Credential("", "");
         
             $httpProfile = new HttpProfile();
             $httpProfile->setReqMethod("GET");
